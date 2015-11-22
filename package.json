@@ -1,0 +1,31 @@
+{
+  "name": "http_server",
+  "version": "1.0.0",
+  "description": "HTTP Server written in vanilla js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarakreft/HTTP_Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarakreft/HTTP_Server/issues"
+  },
+  "homepage": "https://github.com/tarakreft/HTTP_Server#readme",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "chai-http": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.4"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^2.0.0"
+  }
+}
